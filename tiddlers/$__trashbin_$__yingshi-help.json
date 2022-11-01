@@ -1,0 +1,8 @@
+{
+    "created": "20221101143825806",
+    "creator": "A",
+    "title": "$:/yingshi-help",
+    "text": "!! 默认条目列表\n\n* [[YINGSHI]]\n* $:/yingshi-help\n* $:/config/xp/aggregation-yingshi/category/ctags\n* $:/config/xp/aggregation-yingshi/TableFields\n* $:/config/xp/aggregation-yingshi/DefaultView\n* $:/config/xp/aggregation-yingshi/ReadingMode\n* $:/config/xp/aggregation/ui/yingshi\n\n> 如果要删除该主题，记得删除上面这些条目：将链接全部拷贝，粘贴到高级查找的 Filter 选项卡，点击删除按钮！\n",
+    "modified": "20221101143825806",
+    "modifier": "A"
+}

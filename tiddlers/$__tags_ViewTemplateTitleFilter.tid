@@ -1,0 +1,7 @@
+created: 20221101145436290
+creator: A
+list: $:/config/ViewTemplateTitleFilters/gtd $:/config/ViewTemplateTitleFilters/checklist $:/config/ViewTemplateTitleFilters/film $:/config/ViewTemplateTitleFilters/system $:/config/ViewTemplateTitleFilters/snippet $:/config/ViewTemplateTitleFilters/default
+modified: 20221101145436290
+modifier: A
+title: $:/tags/ViewTemplateTitleFilter
+type: text/vnd.tiddlywiki

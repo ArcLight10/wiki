@@ -1,0 +1,11 @@
+{
+    "created": "20221101143825803",
+    "creator": "A",
+    "title": "YINGSHI",
+    "caption": "{{$:/xp/images/aggregation-nc}} YINGSHI",
+    "color": "#bbb",
+    "icon": "$:/xp/images/aggregation-nc",
+    "text": "<$vars aggregationTag=\"\"\"Yingshi\"\"\" config-base=\"\"\"$:/config/xp/aggregation-yingshi/TableFields/Visibility/\"\"\">\n<div class=\"tc-sidebar-lists xp-float-right\">\n<$button tooltip=\"Create a new yingshi\" aria-label=\"new yingshi\" class=\"tc-btn-invisible tc-btn-mini\">\n<$action-sendmessage\n  $message=\"tm-new-tiddler\"\n  title=<<now \"yingshi/YYYY0MM0DD0hh0mm0ssXXX\">>\n  tags=\"[[Yingshi]]\"\n  caption=\"yingshi\"\n  color=\"\"\n  description=\"\"\n  importance=\"\"\n/>\n<span class=\"tc-btn-icon\">{{$:/core/images/new-button}}</span> new yingshi\n</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to \"$:/yingshi-help\" \"YINGSHI Help\">>\n</div>\n\n<$wikify name=\"dtableFields\" text=\"\"\"<$list filter=\"[list[$:/config/xp/aggregation-yingshi/TableFields]]\" variable=\"listField\"><$reveal type=\"match\" state=<<field-config-title>> text=\"show\"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>\"\"\">\n<$macrocall\n  $name=\"aggregation-filtersearch\"\n  fields=<<dtableFields>>\n  state=\"yingshi\"\n  class=\"\"\n  cardTemplate=\"\"\n  searchClass=\"xp-search-yingshi\"\n  promptTiddler=\"\"\n/>\n</$wikify>\n</$vars>",
+    "modified": "20221101143825805",
+    "modifier": "A"
+}

@@ -1,0 +1,9 @@
+created: 20221101145436289
+creator: A
+modified: 20221101145436289
+modifier: A
+tags: $:/tags/ViewTemplateTitleFilter
+title: $:/config/ViewTemplateTitleFilters/film
+type: text/vnd.tiddlywiki
+
+[tag[films]then[$:/xp/ui/ViewTemplate/title/caption]]

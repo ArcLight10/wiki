@@ -1,0 +1,18 @@
+created: 20221101144610717
+creator: A
+modified: 20221101144610717
+modifier: A
+title: $:/影视-help
+type: text/vnd.tiddlywiki
+
+!! 默认条目列表
+
+* [[影视]]
+* $:/影视-help
+* $:/config/xp/aggregation-影视/category/ctags
+* $:/config/xp/aggregation-影视/TableFields
+* $:/config/xp/aggregation-影视/DefaultView
+* $:/config/xp/aggregation-影视/ReadingMode
+* $:/config/xp/aggregation/ui/影视
+
+> 如果要删除该主题，记得删除上面这些条目：将链接全部拷贝，粘贴到高级查找的 Filter 选项卡，点击删除按钮！

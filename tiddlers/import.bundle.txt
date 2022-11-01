@@ -7,3 +7,5 @@ Snipaste_2022-11-01_21-33-42.png
 6bee1e70gy1h6gi02ivbkg20gn0gn1kx.gif
 6bee1e70gy1h6gi02j32lg20gn0gn1kx.gif
 6bee1e70gy1h6gi02m4mzg20gn0gnqv3.gif
+$:/plugins/ihm/tidgraph
+$:/plugins/felixhayashi/tiddlymap

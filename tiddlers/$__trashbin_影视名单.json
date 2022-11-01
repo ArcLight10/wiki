@@ -1,0 +1,12 @@
+{
+    "created": "20221101142754395",
+    "creator": "A",
+    "text": "<$vars aggregationTag=\"\"\"影视名单\"\"\" config-base=\"\"\"$:/config/xp/aggregation-影视名单/TableFields/Visibility/\"\"\">\n<div class=\"tc-sidebar-lists xp-float-right\">\n<$button tooltip=\"Create a new 影视名单\" aria-label=\"new 影视名单\" class=\"tc-btn-invisible tc-btn-mini\">\n<$action-sendmessage\n  $message=\"tm-new-tiddler\"\n  title=<<now \"影视名单/YYYY0MM0DD0hh0mm0ssXXX\">>\n  tags=\"[[影视名单]]\"\n  caption=\"影视名单\"\n  color=\"\"\n  description=\"\"\n  importance=\"\"\n/>\n<span class=\"tc-btn-icon\">{{$:/core/images/new-button}}</span> new 影视名单\n</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to \"$:/影视名单-help\" \"影视名单 Help\">>\n</div>\n\n<$wikify name=\"dtableFields\" text=\"\"\"<$list filter=\"[list[$:/config/xp/aggregation-影视名单/TableFields]]\" variable=\"listField\"><$reveal type=\"match\" state=<<field-config-title>> text=\"show\"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>\"\"\">\n<$macrocall\n  $name=\"aggregation-filtersearch\"\n  fields=<<dtableFields>>\n  state=\"影视名单\"\n  class=\"\"\n  cardTemplate=\"\"\n  searchClass=\"xp-search-影视名单\"\n  promptTiddler=\"\"\n/>\n</$wikify>\n</$vars>",
+    "title": "影视名单",
+    "caption": "{{$:/xp/images/aggregation-nc}} 影视名单",
+    "color": "#bbb",
+    "icon": "$:/xp/images/aggregation-nc",
+    "modified": "20221101143426467",
+    "modifier": "A",
+    "tags": "TableOfContents"
+}

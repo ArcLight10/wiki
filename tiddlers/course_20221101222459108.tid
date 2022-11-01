@@ -1,0 +1,23 @@
+background-color: #fff
+caption: 20221101222459108
+color: red
+created: 20221101142459109
+creator: A
+icon: {{$:/core/images/video}}
+image: $:/heiban.png
+importance: 
+link: 
+linkcolor: 
+modified: 20221101143247211
+modifier: A
+tags: Course Planning
+title: course/20221101222459108
+type: text/vnd.tiddlywiki
+
+!! 课程目录
+
+@@.list-tree
+
+
+
+@@

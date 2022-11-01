@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} 影视
+color: #bbb
+created: 20221101144945241
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101145046498
+modifier: A
+tags: TableOfContents
+title: FILMS
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Films""" config-base="""$:/config/xp/aggregation-films/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new films" aria-label="new films" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=<<now "films/YYYY0MM0DD0hh0mm0ssXXX">>
+  tags="[[Films]]"
+  caption=""
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new films
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/films-help" "FILMS Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-films/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="films"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-films"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

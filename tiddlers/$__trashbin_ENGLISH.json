@@ -1,0 +1,9 @@
+{
+    "created": "20221101141632518",
+    "creator": "A",
+    "text": "<$vars aggregationTag=\"\"\"English\"\"\" config-base=\"\"\"$:/config/xp/aggregation-english/TableFields/Visibility/\"\"\">\n<$wikify name=\"dtableFields\" text=\"\"\"<$list filter=\"[list[$:/config/xp/aggregation-english/TableFields]]\" variable=\"listField\"><$reveal type=\"match\" state=<<field-config-title>> text=\"show\"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>\"\"\">\n<$macrocall\n  $name=\"aggregation-filtersearch\"\n  fields=<<dtableFields>>\n  state=\"aggregation-english\"\n/>\n</$wikify>\n</$vars>",
+    "title": "ENGLISH",
+    "modified": "20221101141827356",
+    "modifier": "A",
+    "tags": "Reference"
+}

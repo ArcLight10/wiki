@@ -1,0 +1,18 @@
+created: 20221101141151656
+creator: A
+modified: 20221101141151656
+modifier: A
+title: $:/inbox-help
+type: text/vnd.tiddlywiki
+
+!! 默认条目列表
+
+* [[INBOX]]
+* $:/inbox-help
+* $:/config/xp/aggregation-inbox/category/ctags
+* $:/config/xp/aggregation-inbox/TableFields
+* $:/config/xp/aggregation-inbox/DefaultView
+* $:/config/xp/aggregation-inbox/ReadingMode
+* $:/config/xp/aggregation/ui/inbox
+
+> 如果要删除该主题，记得删除上面这些条目：将链接全部拷贝，粘贴到高级查找的 Filter 选项卡，点击删除按钮！

@@ -1,0 +1,6 @@
+{
+    "checklist": "prefix[$:/checklist/]",
+    "gtd": "prefix[$:/gtd/]",
+    "snippet": "prefix[snippet/]",
+    "film": "tag[films]"
+}
