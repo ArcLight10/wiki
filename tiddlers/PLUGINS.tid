@@ -1,0 +1,26 @@
+caption: {{$:/xp/images/plugin}} PLUGINS
+color: #bbb
+created: 20221101115101868
+creator: A
+icon: $:/xp/images/plugin
+modified: 20221101115102788
+modifier: A
+tags: Reference
+title: PLUGINS
+tmap.id: 98594d24-4923-4eaf-8dc3-854824256eef
+type: text/vnd.tiddlywiki
+
+\import $:/plugins-macros
+
+<div class="tc-sidebar-lists xp-float-right">
+<$button actions={{$:/xp/ui/Actions/new-plugincard}} tooltip="Create a plugincard" aria-label="new plugincard" class="tc-btn-invisible tc-btn-mini">
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new plugincard
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/plugins-help" "PLUGINS Help">>
+</div>
+
+<$macrocall
+  $name="tabs"
+  tabsList="$:/plugins-my-collections $:/plugins-my-works $:/plugins-currently-installed"
+  default="$:/plugins-my-collections"
+  state="$:/state/tab/plugins"
+/>
