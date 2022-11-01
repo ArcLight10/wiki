@@ -1,0 +1,10 @@
+author: inmysocks
+core-version: >=5.1.6
+dependents: 
+description: A dashboard interface for TiddlyWiki
+name: Dashboard
+plugin-type: plugin
+source: https://github.com/inmysocks/TW5-NoLearningRequired-Full
+title: $:/plugins/inmysocks/Dashboard
+type: application/json
+version: 0.1.3

@@ -1,0 +1,25 @@
+created: 20221101135206833
+creator: A
+description: create a new software
+modified: 20221101135915071
+modifier: A
+tags: $:/tags/Actions
+title: $:/xp/ui/Actions/new-software
+type: text/vnd.tiddlywiki
+
+\define get-tags() $(textFieldTags)$
+\define get-text() $(textField)$
+<$vars textFieldTags={{$:/config/new-software/Tags}} textField={{$:/config/new-software/Text}}>
+<$action-sendmessage
+	$message="tm-new-tiddler"
+	title=<<now "item/YYYY0MM0DD0hh0mm0ssXXX">>
+	tags=<<get-tags>>
+	text=<<get-text>>
+	caption="an item"
+	color=""
+	description=""
+	moscow=""
+	purpose=""
+	url=""
+/>
+</$vars>

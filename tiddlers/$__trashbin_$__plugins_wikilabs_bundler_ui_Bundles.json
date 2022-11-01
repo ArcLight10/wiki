@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/wikilabs/bundler/ui/Bundles",
+    "caption": "Bundles",
+    "created": "20170601134806876",
+    "modified": "20170609084521847",
+    "tags": "$:/tags/SideBar",
+    "type": "text/vnd.tiddlywiki",
+    "text": "<$link to=\"$:/plugins/wikilabs/bundler/ui/ControlPanel/bundler-config\" class=\"wltc-options-button\" >{{$:/core/images/options-button}}</$link>\n{{$:/plugins/wikilabs/bundler/ui/BundlesList}} \n\n---\n\n<$reveal type=\"match\" state=\"$:/config/wikilabs/enableBundles\" text=\"enabled\">\n\n{{$:/plugins/wikilabs/bundler/ui/BundlesFiltered}}\n\n</$reveal>\n\n<$reveal type=\"nomatch\" state=\"$:/config/wikilabs/enableBundles\" text=\"enabled\">\n\n[[Enable Filtered Bundles|$:/plugins/wikilabs/bundler/ui/ControlPanel/bundler-config]]\n\n</$reveal>\n"
+}

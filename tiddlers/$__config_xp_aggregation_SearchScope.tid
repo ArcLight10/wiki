@@ -1,0 +1,8 @@
+created: 20221101135034087
+creator: A
+modified: 20221101135034087
+modifier: A
+title: $:/config/xp/aggregation/SearchScope
+type: text/vnd.tiddlywiki
+
+[tag<aggregationTag>sort[]search:*<userInput>]
