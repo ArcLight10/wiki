@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} 漫画
+color: #bbb
+created: 20221101165656749
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101170057598
+modifier: A
+tags: [[Saved lists]]
+title: MANGA
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Manga""" config-base="""$:/config/xp/aggregation-manga/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new manga" aria-label="new manga" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=""
+  tags="[[Manga]]"
+  caption=""
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new manga
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/manga-help" "MANGA Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-manga/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="manga"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-manga"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

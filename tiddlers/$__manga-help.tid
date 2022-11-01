@@ -1,0 +1,18 @@
+created: 20221101165656753
+creator: A
+modified: 20221101165656753
+modifier: A
+title: $:/manga-help
+type: text/vnd.tiddlywiki
+
+!! 默认条目列表
+
+* [[MANGA]]
+* $:/manga-help
+* $:/config/xp/aggregation-manga/category/ctags
+* $:/config/xp/aggregation-manga/TableFields
+* $:/config/xp/aggregation-manga/DefaultView
+* $:/config/xp/aggregation-manga/ReadingMode
+* $:/config/xp/aggregation/ui/manga
+
+> 如果要删除该主题，记得删除上面这些条目：将链接全部拷贝，粘贴到高级查找的 Filter 选项卡，点击删除按钮！

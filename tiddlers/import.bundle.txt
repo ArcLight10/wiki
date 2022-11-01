@@ -10,3 +10,7 @@ Snipaste_2022-11-01_21-33-42.png
 $:/plugins/ihm/tidgraph
 $:/plugins/felixhayashi/tiddlymap
 Snipaste_2022-11-01_21-33-42.png
+Snipaste_2022-11-02_00-51-47.png
+Snipaste_2022-11-02_00-53-47.png
+Snipaste_2022-11-02_00-58-19.png
+Snipaste_2022-11-02_01-27-23.png
