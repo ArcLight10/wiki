@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} DRAWING
+color: #bbb
+created: 20221101153912340
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101154158948
+modifier: A
+tags: [[Saved lists]]
+title: DRAWING
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Drawing""" config-base="""$:/config/xp/aggregation-drawing/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new drawing" aria-label="new drawing" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=<<now "drawing/YYYY0MM0DD0hh0mm0ssXXX">>
+  tags="[[Drawing]]"
+  caption=<<now "drawing/YYYY0MM0DD0hh0mm0ssXXX">>
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new drawing
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/drawing-help" "DRAWING Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-drawing/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="drawing"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-drawing"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

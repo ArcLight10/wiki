@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} 游戏
+color: #bbb
+created: 20221101153136301
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101153311220
+modifier: A
+tags: [[Saved lists]]
+title: GAMES
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Games""" config-base="""$:/config/xp/aggregation-games/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new games" aria-label="new games" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=<<now "games/YYYY0MM0DD0hh0mm0ssXXX">>
+  tags="[[Games]]"
+  caption=""
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new games
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/games-help" "GAMES Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-games/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="games"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-games"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

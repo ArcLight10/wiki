@@ -1,8 +1,8 @@
 created: 20221101125300221
 creator: A
-modified: 20221101125300221
+modified: 20221101152926637
 modifier: A
 title: $:/config/new-pagecontrol-button/From
 type: text/vnd.tiddlywiki
 
-$:/core/ui/Buttons/encryption
+$:/core/ui/Buttons/new-tiddler

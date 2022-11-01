@@ -1,0 +1,17 @@
+{
+    "created": "20221101153119406",
+    "creator": "A",
+    "text": "<$vars aggregationTag=\"\"\"Films\"\"\" config-base=\"\"\"$:/config/xp/aggregation-films/TableFields/Visibility/\"\"\">\n<div class=\"tc-sidebar-lists xp-float-right\">\n<$button tooltip=\"Create a new films\" aria-label=\"new films\" class=\"tc-btn-invisible tc-btn-mini\">\n<$action-sendmessage\n  $message=\"tm-new-tiddler\"\n  title=<<now \"films/YYYY0MM0DD0hh0mm0ssXXX\">>\n  tags=\"[[Films]]\"\n  caption=\"\"\n  color=\"\"\n  description=\"\"\n  importance=\"\"\n/>\n<span class=\"tc-btn-icon\">{{$:/core/images/new-button}}</span> new films\n</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to \"$:/films-help\" \"FILMS Help\">>\n</div>\n\n<$wikify name=\"dtableFields\" text=\"\"\"<$list filter=\"[list[$:/config/xp/aggregation-films/TableFields]]\" variable=\"listField\"><$reveal type=\"match\" state=<<field-config-title>> text=\"show\"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>\"\"\">\n<$macrocall\n  $name=\"aggregation-filtersearch\"\n  fields=<<dtableFields>>\n  state=\"films\"\n  class=\"\"\n  cardTemplate=\"\"\n  searchClass=\"xp-search-films\"\n  promptTiddler=\"\"\n/>\n</$wikify>\n</$vars>",
+    "draft.title": "Games",
+    "title": "Draft of 'FILMS 1' by A",
+    "caption": "{{$:/xp/images/aggregation-nc}} 影视",
+    "color": "#bbb",
+    "icon": "$:/xp/images/aggregation-nc",
+    "modified": "20221101153123933",
+    "modifier": "A",
+    "tags": "[[Saved lists]]",
+    "type": "text/vnd.tiddlywiki",
+    "revision": "0",
+    "bag": "default",
+    "draft.of": "FILMS 1"
+}

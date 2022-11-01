@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} APPS
+color: #bbb
+created: 20221101153630660
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101154034797
+modifier: A
+tags: [[Saved lists]]
+title: APPS
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Apps""" config-base="""$:/config/xp/aggregation-apps/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new apps" aria-label="new apps" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=<<now "apps/YYYY0MM0DD0hh0mm0ssXXX">>
+  tags="[[Apps]]"
+  caption=""
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new apps
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/apps-help" "APPS Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-apps/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="apps"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-apps"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

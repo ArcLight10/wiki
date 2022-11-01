@@ -1,0 +1,39 @@
+caption: {{$:/xp/images/aggregation-nc}} 动画
+color: #bbb
+created: 20221101153444301
+creator: A
+icon: $:/xp/images/aggregation-nc
+modified: 20221101153543685
+modifier: A
+tags: [[Saved lists]]
+title: ANIME
+type: text/vnd.tiddlywiki
+
+<$vars aggregationTag="""Anime""" config-base="""$:/config/xp/aggregation-anime/TableFields/Visibility/""">
+<div class="tc-sidebar-lists xp-float-right">
+<$button tooltip="Create a new anime" aria-label="new anime" class="tc-btn-invisible tc-btn-mini">
+<$action-sendmessage
+  $message="tm-new-tiddler"
+  title=<<now "anime/YYYY0MM0DD0hh0mm0ssXXX">>
+  tags="[[Anime]]"
+  caption=""
+  color=""
+  description=""
+  importance=""
+/>
+<span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new anime
+</$button>&emsp;<<aggregationCount>>&emsp;<<help-button-to "$:/anime-help" "ANIME Help">>
+</div>
+
+<$wikify name="dtableFields" text="""<$list filter="[list[$:/config/xp/aggregation-anime/TableFields]]" variable="listField"><$reveal type="match" state=<<field-config-title>> text="show"> <$text text={{{ [<listField>format:titlelist[]] }}}/> </$reveal></$list>""">
+<$macrocall
+  $name="aggregation-filtersearch"
+  fields=<<dtableFields>>
+  state="anime"
+  class=""
+  cardTemplate=""
+  searchClass="xp-search-anime"
+  promptTiddler=""
+/>
+</$wikify>
+</$vars>

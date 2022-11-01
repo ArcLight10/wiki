@@ -3,7 +3,7 @@ color: #bbb
 created: 20221101142015988
 creator: A
 icon: $:/xp/images/aggregation-nc
-modified: 20221101142052693
+modified: 20221101154219508
 modifier: A
 tags: TableOfContents
 title: INBOX
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
   $message="tm-new-tiddler"
   title=<<now "inbox/YYYY0MM0DD0hh0mm0ssXXX">>
   tags="[[Inbox]]"
-  caption="inbox"
+  caption=<<now "inbox/YYYY0MM0DD0hh0mm0ssXXX">>
   color=""
   description=""
   importance=""

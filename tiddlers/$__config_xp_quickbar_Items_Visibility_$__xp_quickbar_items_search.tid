@@ -1,8 +1,8 @@
 created: 20221101125147333
 creator: A
-modified: 20221101125147333
+modified: 20221101154935685
 modifier: A
 title: $:/config/xp/quickbar/Items/Visibility/$:/xp/quickbar/items/search
 type: text/vnd.tiddlywiki
 
-hide
+show

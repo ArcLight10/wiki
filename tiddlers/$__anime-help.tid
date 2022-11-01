@@ -1,0 +1,18 @@
+created: 20221101153444304
+creator: A
+modified: 20221101153444304
+modifier: A
+title: $:/anime-help
+type: text/vnd.tiddlywiki
+
+!! 默认条目列表
+
+* [[ANIME]]
+* $:/anime-help
+* $:/config/xp/aggregation-anime/category/ctags
+* $:/config/xp/aggregation-anime/TableFields
+* $:/config/xp/aggregation-anime/DefaultView
+* $:/config/xp/aggregation-anime/ReadingMode
+* $:/config/xp/aggregation/ui/anime
+
+> 如果要删除该主题，记得删除上面这些条目：将链接全部拷贝，粘贴到高级查找的 Filter 选项卡，点击删除按钮！

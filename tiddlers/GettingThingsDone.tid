@@ -4,9 +4,9 @@ created: 20221101110217345
 creator: Awtrix
 icon: $:/core/images/done-button
 list: $:/q1 $:/q2 $:/q3 $:/q4
-modified: 20221101110218651
-modifier: Awtrix
-tags: Reference
+modified: 20221101154610757
+modifier: A
+tags: Aggregation
 title: GettingThingsDone
 tmap.id: 2380cd04-736e-4612-9915-13503d35f6e8
 type: text/vnd.tiddlywiki

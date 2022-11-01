@@ -1,8 +1,9 @@
 caption: 目录
 created: 20221101103553413
 creator: Awtrix
+icon: 📇
 list-before: $:/core/ui/SideBar/Open
-modified: 20221101114010110
+modified: 20221101162732153
 modifier: A
 tags: $:/tags/SideBar
 title: TableOfContents
