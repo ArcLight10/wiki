@@ -1,0 +1,11 @@
+{
+    "created": "20221101125348165",
+    "creator": "A",
+    "tags": "$:/tags/QuickBar/PageControlButtons",
+    "text": "{{$:/core/ui/Buttons/encryption}}",
+    "caption": "{{$:/core/ui/Buttons/encryption!!caption}}",
+    "description": "{{$:/core/ui/Buttons/encryption!!description}}",
+    "modified": "20221101125348165",
+    "modifier": "A",
+    "title": "$:/xp/quickbar/Buttons/encryption"
+}

@@ -1,0 +1,14 @@
+caption: More
+created: 20221101122052473
+creator: A
+list-after: $:/core/ui/SideBar/TableOfContents
+modified: 20221101122219129
+modifier: A
+tags: $:/tags/SideBar
+title: $:/core/ui/SideBar/More
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical tc-sidebar-tabs-more" explicitState="$:/state/tab/moresidebar-1850697562"/>
+</div>
